@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ ! $(command -v singularity) ]; then
+	module load singularity/3.6.3
+fi
+
+VERSION=4.1.9.0
+PACKAGE=gatk
+TOOL=$PACKAGE
+DIRECTORY=/opt/packages/$PACKAGE/$VERSION
+
+singularity exec -B /pylon5 $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
