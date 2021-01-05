@@ -1,12 +1,17 @@
 #!/bin/bash
 
 if [ ! $(command -v singularity) ]; then
-	module load singularity/3.6.3
+	module load singularity
 fi
 
 VERSION=4.1.9.0
-PACKAGE=gatk
-TOOL=$PACKAGE
+PACKAGE=GATK
+TOOL=gatk
 DIRECTORY=/opt/packages/$PACKAGE/$VERSION
 
-singularity exec -B /pylon5 $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+PERSISTENT_FILE_STORAGE=/ocean
+if [ ! -d $PERSISTENT_FILE_STORAGE ]; then
+	singularity exec $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+else
+	singularity exec -B $PERSISTENT_FILE_STORAGE $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+fi
