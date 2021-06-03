@@ -1,5 +1,6 @@
 # singularity-gatk
-Singularity recipe for GATK.
+![Logo](https://theme.zdassets.com/theme_assets/2378360/df085f154321faac9159dda57f50103b87a4f743.png)
+Singularity recipe for [GATK](https://gatk.broadinstitute.org/hc/en-us).
 
 ## Building the image using the recipe
 
