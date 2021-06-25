@@ -5,6 +5,7 @@ From: quay.io/biocontainers/gatk4:4.1.9.0--py39_0
     AUTHOR icaoberg
     EMAIL icaoberg@psc.edu
     WEBSITE http://www.andrew.cmu.edu/~icaoberg
+    COPYRIGHT Copyright © 2021 Pittsburgh Supercomputing Center. All Rights Reserved.
     VERSION 4.1.9.0
 
 %post
