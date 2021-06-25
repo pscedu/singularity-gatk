@@ -1,3 +1,9 @@
+[Status](https://github.com/pscedu/singularity-gatk/actions/workflows/main.yml/badge.svg)
+![Issue](https://img.shields.io/github/issues/pscedu/singularity-gatk)
+![forks](https://img.shields.io/github/forks/pscedu/singularity-gatk)
+![Stars](https://img.shields.io/github/stars/pscedu/singularity-gatk)
+![License](https://img.shields.io/github/license/pscedu/singularity-gatk)
+
 # singularity-gatk
 ![Logo](https://theme.zdassets.com/theme_assets/2378360/df085f154321faac9159dda57f50103b87a4f743.png)
 Singularity recipe for [GATK](https://gatk.broadinstitute.org/hc/en-us).
