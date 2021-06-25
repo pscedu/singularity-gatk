@@ -16,7 +16,7 @@ Copy the
 
 to `/opt/packages/gatk/4.1.9.0`.
 
-Copy the file `modulefile.lua` to `/opt/modules/gatk` as `4.1.9.0`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/gatk` as `4.1.9.0.lua`.
 
 ## Building the image using the recipe
 
@@ -28,7 +28,7 @@ bash ./build.sh
 ```
 
 ### To build the image remotely
-Run the script `rbuild.sh` to build image locally.
+Run the script `rbuild.sh` to build image remotely.
 
 ```
 bash ./rbuild.sh
