@@ -1,3 +1,9 @@
+[Status](https://github.com/pscedu/singularity-gatk/actions/workflows/main.yml/badge.svg)
+![Issue](https://img.shields.io/github/issues/pscedu/singularity-gatk)
+![forks](https://img.shields.io/github/forks/pscedu/singularity-gatk)
+![Stars](https://img.shields.io/github/stars/pscedu/singularity-gatk)
+![License](https://img.shields.io/github/license/pscedu/singularity-gatk)
+
 # singularity-gatk
 ![Logo](https://theme.zdassets.com/theme_assets/2378360/df085f154321faac9159dda57f50103b87a4f743.png)
 Singularity recipe for [GATK](https://gatk.broadinstitute.org/hc/en-us).
@@ -10,7 +16,7 @@ Copy the
 
 to `/opt/packages/gatk/4.1.9.0`.
 
-Copy the file `modulefile.lua` to `/opt/modules/gatk` as `4.1.9.0`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/gatk` as `4.1.9.0.lua`.
 
 ## Building the image using the recipe
 
@@ -22,7 +28,7 @@ bash ./build.sh
 ```
 
 ### To build the image remotely
-Run the script `rbuild.sh` to build image locally.
+Run the script `rbuild.sh` to build image remotely.
 
 ```
 bash ./rbuild.sh
@@ -38,4 +44,6 @@ bash ./test.sh
 ---
 Copyright © 2020-2021 Pittsburgh Supercomputing Center. All Rights Reserved.
 
-[icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
+The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing
+Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
+
