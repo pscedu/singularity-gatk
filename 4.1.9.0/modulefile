@@ -7,21 +7,21 @@
 
  proc ModulesHelp { } {
  global dotversion
- puts stderr "picard  2.23.2 (picard)"
+ puts stderr "gatk  4.1.9.0 (gatk)"
  puts stderr "-----------------------"
  puts stderr "\nTo enable, first load the following required modules (via modul
 e load command): "
- puts stderr "\n\tmodule load picard/2.23.2"
+ puts stderr "\n\tmodule load gatk/4.1.9.0"
  puts stderr "\nFor a full list of binaries included in this module, type"
- puts stderr "\n\tmodule what-is picard/2.23.2"
+ puts stderr "\n\tmodule what-is gatk/4.1.9.0"
  }
 
-module-whatis "picard 2.23.2 (picard)
+module-whatis "gatk 4.1.9.0 (gatk)
 
   Tools included in this module are
 
-  * picard"
+  * gatk"
 
-set PICARD_HOME /opt/packages/picard/2.23.2
-setenv PICARD_HOME ${PICARD_HOME}
-prepend-path PATH ${PICARD_HOME}
+set gatk /opt/packages/picard/4.1.9.0
+setenv gatk ${gatk_HOME}
+prepend-path PATH ${gatk_HOME}
