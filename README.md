@@ -14,9 +14,9 @@ Copy the
 * `SIF` file
 * and the `gatk` script
 
-to `/opt/packages/gatk/4.1.9.0`.
+to `/opt/packages/gatk/4.2.0.0`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/gatk` as `4.1.9.0.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/gatk` as `4.2.0.0.lua`.
 
 ## Building the image using the recipe
 
