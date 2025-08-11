@@ -1,4 +1,5 @@
 ![Status](https://github.com/pscedu/singularity-gatk/actions/workflows/main.yml/badge.svg)
+![Status](https://github.com/pscedu/singularity-gatk/actions/workflows/pretty.yml/badge.svg)
 ![Issue](https://img.shields.io/github/issues/pscedu/singularity-gatk)
 ![forks](https://img.shields.io/github/forks/pscedu/singularity-gatk)
 ![Stars](https://img.shields.io/github/stars/pscedu/singularity-gatk)
@@ -42,7 +43,7 @@ bash ./test.sh
 ```
 
 ---
-Copyright © 2020-2024 Pittsburgh Supercomputing Center. All Rights Reserved.
+Copyright © 2020-2025 Pittsburgh Supercomputing Center. All Rights Reserved.
 
 The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing
 Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
